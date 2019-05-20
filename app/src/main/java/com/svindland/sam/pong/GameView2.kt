@@ -113,8 +113,7 @@ class GameView2(context: Context, attributes: AttributeSet) : SurfaceView(contex
                 MotionEvent.ACTION_CANCEL -> p2touched = false
                 MotionEvent.ACTION_OUTSIDE -> p2touched = false
             }
-        }
-        if (event.getY() > Resources.getSystem().displayMetrics.heightPixels / 2){
+        } else {
             if (event.getX() > Resources.getSystem().displayMetrics.widthPixels / 2) {
                 touched_x = 25
             } else {

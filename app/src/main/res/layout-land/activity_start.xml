@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pong_with_friends"
+        android:textSize="36sp"
+        android:textColor="@color/white"
+        android:paddingBottom="24dp"
+        android:padding="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:textColor="@color/black"
+        android:text="@string/nothing"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/single_player"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:onClick="singlePlayer" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:textColor="@color/black"
+        android:text="@string/nothing"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/two_player"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:onClick="twoPlayer"/>
+
+</LinearLayout>
